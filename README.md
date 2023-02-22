@@ -1,4 +1,4 @@
-##The Rick and Morty 
+## The Rick and Morty 
 
 En este proyecto pretende generar un sitio web que sirva como  un recurso en línea  relacionado con la serie de *Rick and Morty*,  una popular serie animada de televisión que sigue las aventuras intergalácticas de Rick Sánchez, un genio científico, y su nieto adolescente Morty Smith, mientras viajan por el universo y visitan diferentes planetas y realidades alternativas.
 
