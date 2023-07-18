@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={handleChange}
         type="search"
         className={styles.inputSearch}
-        placeholder="id"
+        placeholder="Número"
       />
       <button onClick={() => onSearch(id)} className={styles.btn}>
         {"+"}

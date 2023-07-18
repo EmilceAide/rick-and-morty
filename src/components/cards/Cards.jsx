@@ -10,18 +10,17 @@ const Cards = ({ characters, onClose, isLoading}) => {
         <div
           style={{
             color: "#fff",
-            padding: "0 50px",
+            padding: "20px 50px",
             fontFamily: 'sans-serif',
             textAlign: "center",
             fontSize:'0.8em',
           }}
         >
-          <h1>Welcome! </h1>
+          <h1>   ¡Bienvenido! </h1>
           <h2>
-            Here you can add cards of the characters that you like the most.
-            What are you waiting for?
+           Aquí puedes añadir cartas de los personajes que más te gusten. ¿Que estas esperando?
           </h2>
-          <h2>Start building your personal collection now.</h2>
+          <h2>Comience a construir su colección personal ahora.</h2>
         </div>
       </div>
     );

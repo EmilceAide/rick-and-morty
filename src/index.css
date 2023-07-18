@@ -6,8 +6,8 @@ body {
   min-height: 100%;
   display: grid;
   justify-items: stretch;
-  background-image: linear-gradient(rgba(5, 7, 1, 0.75), rgba(5, 7, 12, 0.75)),
-    url("./assets/fondo1.png");
+  /* background-image: linear-gradient(rgba(5, 7, 1, 0.75), rgba(5, 7, 12, 0.75)),
+    url("./assets/fondo1.png"); */
   background-repeat: repeat;
   grid-template-areas: none;
   background-color: #1a1a1a;

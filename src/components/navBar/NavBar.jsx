@@ -9,10 +9,10 @@ const NavBar = ({ onSearch, onGetRandom, logout }) => {
 
       <div className={styles.contentOne}>
         <Link to="/home">
-          <button className={styles.home}> HOME </button>
+          <button className={styles.home}> INICIO </button>
         </Link>
         <Link to="/favorites">
-          <button className={styles.favorites}> FAVORITES </button>
+          <button className={styles.favorites}> FAVORITOS </button>
         </Link>
         <Link to="/about">
           <button className={styles.about}> ABOUT </button>
@@ -30,10 +30,10 @@ const NavBar = ({ onSearch, onGetRandom, logout }) => {
           {"+"}
         </button>
         <Link to="/">
-          <button onClick={logout} className={styles.logout}>
+          {/* <button onClick={logout} className={styles.logout}>
             {" "}
             LOGOUT{" "}
-          </button>
+          </button> */}
         </Link>
       </div>
     </div>

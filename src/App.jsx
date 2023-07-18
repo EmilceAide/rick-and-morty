@@ -36,7 +36,7 @@ function App() {
   useEffect(() => {
   access && navigate("/") 
   }, [access, navigate]);
-
+  
   const onClose = (id) => {
     setCharacters((oldChars) => oldChars.filter((el) => el.id !== id));
   };
@@ -47,6 +47,7 @@ function App() {
     const ramdom = Math.floor(Math.random() * (max - min) + min);
     return cb(ramdom);
   };
+
 
   const onSearch = (id) => {
     setIsLoading(true);
